@@ -4,3 +4,32 @@
   height: 40.125rem;
   background-color: #ffffff;
 }
+
+.advantages__content {
+  width: 58.875rem;
+  margin: 0 auto 0 auto;
+}
+
+.advantages__title {
+  text-align: center;
+  margin: 5.625rem 0 0 0;
+  font-family: "Proxima Nova Bold", sans-serif;
+  font-size: 1.875em;
+}
+
+.advantage-table {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 0 auto;
+}
+
+.advantage-table__column-1, .advantage-table__column-2, .advantage-table__column-3 {
+  height: 18.75rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+
+.advantage-table__column-1 .advantage-table__row-1 {
+  visibility: hidden;
+}
