@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Proxima Nova Light";
+  src: url("fonts/ProximaNova Light.otf");
+}
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url("fonts/ProximaNova Bold.otf");
+}
+@font-face {
+  font-family: "Proxima Nova Extra Bold";
+  src: url("fonts/ProximaNova ExtraBld.otf");
+}
+
+
+
+@mixin back-img-cover($property) {
+  background-image: url($property);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}

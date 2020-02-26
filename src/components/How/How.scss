@@ -1,0 +1,67 @@
+@import "../../assets/sundries";
+
+.how-it-works {
+  background-color: #f5f5f5;
+  padding-top: 1px;
+  height: 31.25rem;
+}
+
+.how-it-works__content {
+  width: 52.875rem;
+  margin: 0 auto 0 auto;
+}
+
+.how-it-works__title {
+  text-align: center;
+  margin: 5.875rem 0 0 0;
+  font-family: "Proxima Nova Bold", sans-serif;
+  font-weight: bold;
+  font-size: 1.875em;
+}
+
+.how-it-works__explanations {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6.25rem;
+}
+
+.explanation {
+  width: 16.69rem;
+}
+
+.explanation__description {
+  text-align: center;
+  font-family: "Proxima Nova Light", sans-serif;
+  font-size: 1em;
+  line-height: 1.375em;
+}
+
+.explanation:nth-child(3){
+  font-family: "Proxima Nova Bold", sans-serif;
+  font-weight: bold;
+}
+
+.explanation__img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8.125rem;
+}
+
+.explanation__img-1 {
+  height: 5.75rem;
+  width: 6.375rem;
+  @include back-img-cover("./images/explanation-1.png");
+}
+
+.explanation__img-2 {
+  height: 5.375rem;
+  width: 8.25rem;
+  @include back-img-cover("./images/explanation-2.png");
+}
+
+.explanation__img-3 {
+  height: 4.625rem;
+  width: 7.6875rem;
+  @include back-img-cover("./images/explanation-3.png");
+}

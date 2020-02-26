@@ -1,0 +1,61 @@
+@import "../../assets/sundries";
+
+
+.personal-lawyer {
+  height: 38.125rem;
+  border-top: 1px solid #ffffff;
+  @include back-img-cover("./images/background-1.jpg");
+}
+
+.personal-lawyer__content {
+  width: 59.375rem;
+  margin: 7.8125rem auto 0 auto;
+}
+
+.personal-lawyer__title {
+  color: #ffffff;
+  font-family: "Proxima Nova Bold", sans-serif;
+  font-weight: bold;
+  font-size: 1.875em;
+  line-height: 3.125rem;
+  margin: 0;
+}
+
+.personal-lawyer__title-bold {
+  font-family: "Proxima Nova Extra Bold", sans-serif;
+  font-size: 1.33em;
+}
+
+.personal-lawyer__text {
+  margin-top: 2.4rem;
+  font-size: 1.5em;
+  font-family: "Proxima Nova Light", sans-serif;
+  line-height: 1.25em;
+  color: #ffffff;
+}
+
+.personal-lawyer-text__bold {
+  font-family: "Proxima Nova Bold", sans-serif;
+  font-weight: bold;
+}
+
+.personal-lawyer__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4.375rem;
+  width: 18.6875rem;
+  height: 4.0625rem;
+  background-color: #e42626;
+  font-family: "Proxima Nova Bold", sans-serif;
+  font-weight: bold;
+  font-size: 1.125em;
+  color: #ffffff;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.personal-lawyer__button:hover {
+  background-color: #910f0f;
+  color: #f0f0f0;
+}

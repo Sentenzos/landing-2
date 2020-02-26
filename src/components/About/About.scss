@@ -1,0 +1,67 @@
+@import "../../assets/sundries";
+
+.about-us {
+  border-top: solid 1px #ffffff;
+  height: 37.5rem;
+  @include back-img-cover("./images/about-us.jpg")
+}
+
+.about-us__content {
+  width: 59.375rem;
+  margin: 0 auto 0 auto;
+}
+
+.about-us__title {
+  margin-top: 6rem;
+  text-align: center;
+  font-size: 1.875em;
+  font-family: "Proxima Nova Bold", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.about-us__description-1, .about-us__description-2 {
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.25em;
+  font-family: "Proxima Nova Light", sans-serif;
+  color: #ffffff;
+}
+
+.about-us__description-1 {
+  margin: 4rem 0 0 0;
+}
+
+.about-us__description-2 {
+  margin: 1.25rem 0 0 0;
+}
+
+.about-us__statistics {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.7rem;
+}
+
+.statistics__item {
+  width: 10rem;
+}
+
+.statistics-item__number {
+  text-align: center;
+  font-family: "Proxima Nova Bold", sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  color: #ffffff;
+}
+
+.statistics-item__number span {
+  font-size: 0.5em;
+}
+
+.statistics-item__name {
+  margin-top: 0.5rem;
+  font-size: 1em;
+  font-family: "Proxima Nova Light", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
