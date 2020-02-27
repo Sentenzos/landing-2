@@ -2,6 +2,14 @@
 
 .header-1 {
   border-bottom: solid 1px #f4f4f4;
+  width: 100%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.header-blank {
+  height: 3.125rem;
 }
 
 .header-1-menu, .header-2-menu {
@@ -149,3 +157,9 @@
   font-size: 0.875rem;
   list-style: none;
 }
+
+//.header-1 {
+//  width: 100%;
+//  background-color: #ffffff;
+//  position: fixed;
+//}

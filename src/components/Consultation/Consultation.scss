@@ -1,0 +1,61 @@
+@import "../../assets/sundries";
+
+.consultation {
+  border-top: 1px solid #ffffff;
+  height: rem(470);
+  @include back-img-cover("./images/consultation.jpg");
+}
+
+.consultation__content {
+  display: flex;
+  justify-content: space-between;
+  width: rem(895);
+  margin: 0 auto 0 auto;
+}
+
+.consultation__title {
+  color: #ffffff;
+  margin: rem(100) 0 0 0;
+  font-family: "Muller Bold", sans-serif;
+  font-weight: bold;
+  font-size: em(30);
+  line-height: 120%;
+}
+
+.consultation__items {
+  margin-top: rem(70);
+}
+
+.consultation__item {
+  display: flex;
+  font-family: "Muller Light", sans-serif;
+  font-size: em(18);
+  color: #ffffff;
+  margin-top: rem(20);
+}
+
+.consultation__item-number {
+  margin-right: rem(23);
+  font-family: "Muller Medium", sans-serif;
+  color: #e41e1e;
+}
+
+.consultation__item-underline {
+  border-bottom: solid 1px #ffffff;
+}
+
+.consultation_app-1 {
+  margin-top: rem(133);
+  @include back-img-cover("./images/android-app.png");
+  width: rem(206);
+  height: rem(72);
+  cursor: pointer;
+}
+
+.consultation_app-2{
+  margin-top: rem(30);
+  @include back-img-cover("./images/ios-app.png");
+  width: rem(206);
+  height: rem(71);
+  cursor: pointer;
+}

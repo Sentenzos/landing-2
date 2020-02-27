@@ -46,7 +46,7 @@
   margin-top: 4.375rem;
   width: 18.6875rem;
   height: 4.0625rem;
-  background-color: #e42626;
+  background: linear-gradient(#e02424, #c51919);
   font-family: "Proxima Nova Bold", sans-serif;
   font-weight: bold;
   font-size: 1.125em;
@@ -56,6 +56,6 @@
 }
 
 .personal-lawyer__button:hover {
-  background-color: #910f0f;
+  background: linear-gradient(#e02424, #990505);
   color: #f0f0f0;
 }

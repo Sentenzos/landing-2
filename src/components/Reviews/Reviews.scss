@@ -1,0 +1,47 @@
+@import "../../assets/sundries";
+
+.reviews {
+  height: rem(660);
+  background-color: #f5f5f5;
+  padding-top: 1px;
+}
+
+.reviews__content {
+  width: rem(1125);
+  margin: 0 auto 0 auto;
+}
+
+.reviews__title {
+  margin: rem(90) 0 0 0;
+  text-align: center;
+  font-size: em(30);
+  font-family: "Muller Bold", sans-serif;
+  font-weight: bold;
+}
+
+
+.reviews__topics {
+  display: flex;
+  justify-content: center;
+  margin: rem(78) auto 0 auto;
+}
+
+.reviews__topic {
+  display: flex;
+  align-items: center;
+  padding: rem(12);
+  font-size: em(14);
+  font-family: "Muller Medium", sans-serif;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.reviews__topic:hover {
+  color: #e50000;
+}
+
+.reviews__topic--active {
+  border: 2px solid #e42626;
+  border-radius: rem(4);
+  color: #e50000;
+}

@@ -10,8 +10,28 @@
   font-family: "Proxima Nova Extra Bold";
   src: url("fonts/ProximaNova ExtraBld.otf");
 }
+@font-face {
+  font-family: "Muller Light";
+  src: url("fonts/MullerLight.otf");
+}
+@font-face {
+  font-family: "Muller Medium";
+  src: url("fonts/MullerMedium.otf");
+}
+@font-face {
+  font-family: "Muller Bold";
+  src: url("fonts/MullerBold.otf");
+}
 
 
+
+@function rem($pixels) {
+  @return #{$pixels / 16}rem
+}
+
+@function em($pixels) {
+  @return #{$pixels / 16}em
+}
 
 @mixin back-img-cover($property) {
   background-image: url($property);

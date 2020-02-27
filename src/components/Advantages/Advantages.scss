@@ -20,7 +20,7 @@
 .advantage-table {
   display: flex;
   justify-content: center;
-  margin: 0 auto 0 auto;
+  margin: rem(80) auto 0 auto;
 }
 
 .advantage-table__column-1, .advantage-table__column-2, .advantage-table__column-3 {
@@ -28,8 +28,110 @@
   display: flex;
   flex-flow: column;
   justify-content: space-evenly;
+  font-family: "Proxima Nova Light", sans-serif;
+  font-size: 0.8125em;
 }
 
-.advantage-table__column-1 .advantage-table__row-1 {
+.advantage-table__column-1 .advantage-table__row:nth-child(1) {
   visibility: hidden;
+}
+
+.advantage-table__row:nth-child(1) {
+  font-family: "Proxima Nova Bold", sans-serif;
+  font-weight: bold;
+}
+
+.advantage-table__column-1 {
+  align-items: flex-end;
+  margin-right: rem(28);
+}
+
+.advantage-table__column-2 {
+  width: 12.5rem;
+  align-items: center;
+  background-color: #26b83a;
+  color: #ffffff;
+  box-shadow: 0 10px 10px rgba(38, 184, 58, 0.2);
+}
+
+.advantage-table__column-3 {
+  width: rem(210);
+  align-items: center;
+  box-sizing: border-box;
+  border: solid 1px #e8e8e8;
+}
+
+.advantage-table__column-4 {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  margin-left: rem(40);
+}
+
+.advantage-table__column-4 .advantage-table__row {
+  display: flex;
+  align-items: flex-end;
+}
+
+.advantage-table__column-4 {
+  font-family: "Proxima Nova Light", sans-serif;
+  font-size: em(16);
+  color: #000000;
+}
+
+.advantage-table__bold {
+  font-family: "Proxima Nova Bold", sans-serif;
+  font-weight: bold;
+}
+
+.advantage-table__column-4 .advantage-table__row:nth-child(1) {
+  font-family: "Proxima Nova Bold", sans-serif;
+  font-weight: bold;
+}
+
+.advantage-table__img-wrapper {
+  width: rem(46);
+}
+
+.advantage-table__img-1 {
+  @include back-img-cover("./images/advantage-1.png");
+  width: rem(25);
+  height: rem(27);
+}
+
+.advantage-table__img-2 {
+   @include back-img-cover("./images/advantage-2.png");
+   width: rem(22);
+   height: rem(27);
+ }
+
+.advantage-table__img-3 {
+  @include back-img-cover("./images/advantage-3.png");
+  width: rem(27);
+  height: rem(24);
+}
+
+.advantage-table__img-4 {
+  @include back-img-cover("./images/advantage-4.png");
+  width: rem(25);
+  height: rem(27);
+}
+
+.advantage-table__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: rem(300);
+  height: rem(65);
+  background: linear-gradient(#e02424, #c51919);
+  border-radius: rem(4);
+  font-family: "Proxima Nova Bold", sans-serif;
+  font-weight: bold;
+  font-size: em(18);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.advantage-table__btn:hover {
+  background: linear-gradient(#e02424, #990505);
 }
