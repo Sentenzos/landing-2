@@ -27,13 +27,12 @@
 }
 
 .reviews__topic {
-  display: flex;
-  align-items: center;
-  padding: rem(12);
+  padding: rem(12) rem(12) rem(10) rem(12);
   font-size: em(14);
   font-family: "Muller Medium", sans-serif;
   cursor: pointer;
-  box-sizing: border-box;
+  border: 2px solid #f5f5f5;
+  border-radius: rem(4);
 }
 
 .reviews__topic:hover {
@@ -44,4 +43,135 @@
   border: 2px solid #e42626;
   border-radius: rem(4);
   color: #e50000;
+}
+
+.reviews-videos-wrapper {
+  display: flex;
+  width: rem(1125);
+  margin-top: rem(80);
+}
+
+.reviews-video-wrapper {
+  width: rem(940);
+}
+
+.reviews-videos__left-btn {
+  @include back-img-cover("./images/left-arrow-inactive.png");
+  width: rem(22);
+  height: rem(16);
+  margin-right: rem(70);
+  margin-top: rem(97);
+  cursor: pointer;
+}
+
+.reviews-videos__right-btn {
+  @include back-img-cover("./images/right-arrow-inactive.png");
+  width: rem(22);
+  height: rem(16);
+  margin-left: rem(70);
+  margin-top: rem(97);
+  cursor: pointer;
+}
+
+.reviews-videos {
+  display: flex;
+  width: rem(940);
+  overflow: hidden;
+}
+
+.reviews-video-wrapper {
+  width: rem(300);
+  margin-right: rem(19);
+  cursor: pointer;
+}
+
+.reviews-video-wrapper:nth-child(1) .reviews-video {
+  @include back-img-cover("./images/vid1.jpg");
+  width: rem(300);
+  height: rem(210);
+}
+
+.reviews-video-wrapper:nth-child(2) .reviews-video {
+   @include back-img-cover("./images/vid2.jpg");
+   width: rem(300);
+   height: rem(210);
+}
+
+.reviews-video-wrapper:nth-child(3) .reviews-video {
+  @include back-img-cover("./images/vid3.jpg");
+  width: rem(300);
+  height: rem(210);
+}
+
+.reviews-video-wrapper:nth-child(4) .reviews-video {
+  @include back-img-cover("./images/vid1.jpg");
+  width: rem(300);
+  height: rem(210);
+}
+
+.reviews-video-wrapper:nth-child(5) .reviews-video {
+  @include back-img-cover("./images/vid2.jpg");
+  width: rem(300);
+  height: rem(210);
+}
+.reviews-video-wrapper:nth-child(6) .reviews-video {
+  @include back-img-cover("./images/vid2.jpg");
+  width: rem(300);
+  height: rem(210);
+}
+.reviews-video-wrapper:nth-child(7) .reviews-video {
+  @include back-img-cover("./images/vid2.jpg");
+  width: rem(300);
+  height: rem(210);
+}
+.reviews-video-wrapper:nth-child(8) .reviews-video {
+  @include back-img-cover("./images/vid2.jpg");
+  width: rem(300);
+  height: rem(210);
+}
+.reviews-video-wrapper:nth-child(9) .reviews-video {
+  @include back-img-cover("./images/vid2.jpg");
+  width: rem(300);
+  height: rem(210);
+}
+.reviews-video-wrapper:nth-child(10) .reviews-video {
+  @include back-img-cover("./images/vid2.jpg");
+  width: rem(300);
+  height: rem(210);
+}
+.reviews-video-wrapper:nth-child(11) .reviews-video {
+  @include back-img-cover("./images/vid2.jpg");
+  width: rem(300);
+  height: rem(210);
+}
+.reviews-video-wrapper:nth-child(12) .reviews-video {
+  @include back-img-cover("./images/vid2.jpg");
+  width: rem(300);
+  height: rem(210);
+}
+.reviews-video-wrapper:nth-child(13) .reviews-video {
+  @include back-img-cover("./images/vid2.jpg");
+  width: rem(300);
+  height: rem(210);
+}
+.reviews-video-wrapper:nth-child(14) .reviews-video {
+  @include back-img-cover("./images/vid2.jpg");
+  width: rem(300);
+  height: rem(210);
+}
+.reviews-video-wrapper:nth-child(15) .reviews-video {
+  @include back-img-cover("./images/vid2.jpg");
+  width: rem(300);
+  height: rem(210);
+}
+
+.reviews-video__name {
+  font-family: "Muller Light", sans-serif;
+  font-weight: lighter;
+  font-size: em(13);
+  margin-top: rem(16);
+}
+
+.reviews-video-wrapper:hover .reviews-video__name {
+  color: #e42626;
 }
