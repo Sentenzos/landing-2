@@ -9,6 +9,8 @@ import How from "./components/How/How";
 import Advantages from "./components/Advantages/Advantages";
 import Consultation from "./components/Consultation/Consultation";
 import Reviews from "./components/Reviews/Reviews";
+import Partners from "./components/Partners/Partners";
+import Tariff from "./components/Tariff/Tariff";
 
 function App() {
 
@@ -24,6 +26,8 @@ function App() {
       <Advantages/>
       <Consultation/>
       <Reviews/>
+      <Partners/>
+      <Tariff/>
     </>
   );
 }

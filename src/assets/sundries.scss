@@ -24,13 +24,14 @@
 }
 
 
+$browser-context: 16;
 
 @function rem($pixels) {
   @return #{$pixels / 16}rem
 }
 
-@function em($pixels) {
-  @return #{$pixels / 16}em
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels / $context}em
 }
 
 @mixin back-img-cover($property) {

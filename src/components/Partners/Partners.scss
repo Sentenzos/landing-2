@@ -1,0 +1,116 @@
+@import "../../assets/sundries";
+
+.partners {
+  height: rem(450);
+  background-color: #ffffff;
+  padding-top: 1px;
+}
+
+.partners__content {
+  width: rem(1125);
+  margin: 0 auto 0 auto;
+}
+
+.partners__title {
+  margin: rem(90) 0 0 0;
+  text-align: center;
+  font-size: em(30);
+  font-family: "Muller Bold", sans-serif;
+  font-weight: bold;
+}
+
+.partners-firms-wrapper {
+  display: flex;
+  width: rem(1125);
+  margin-top: rem(70);
+}
+
+.partners-firms {
+  display: flex;
+  width: rem(940);
+  overflow: hidden;
+}
+
+.partners-firms__left-btn {
+  @include back-img-cover("./images/left-arrow-inactive.png");
+  width: rem(22);
+  height: rem(16);
+  margin-right: rem(70);
+  margin-top: rem(78);
+  cursor: pointer;
+}
+
+.partners-firms__right-btn {
+  @include back-img-cover("./images/right-arrow-inactive.png");
+  width: rem(22);
+  height: rem(16);
+  margin-left: rem(70);
+  margin-top: rem(78);
+  cursor: pointer;
+}
+
+.partners-firm-wrapper {
+  position: relative;
+  height: rem(170);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.partners-firm-wrapper:hover .partners-firm__description {
+  opacity: 1;
+}
+
+.partners-firm__img {
+  width: rem(220);
+  height: rem(140);
+}
+
+.partners-firm-wrapper:nth-child(1) .partners-firm__img {
+  @include back-img-cover("./images/partner-1.png");
+}
+
+.partners-firm-wrapper:nth-child(2) .partners-firm__img {
+  @include back-img-cover("./images/partner-2.png");
+}
+
+.partners-firm-wrapper:nth-child(3) .partners-firm__img {
+  @include back-img-cover("./images/partner-3.png");
+}
+
+.partners-firm-wrapper:nth-child(4) .partners-firm__img {
+  @include back-img-cover("./images/partner-4.png");
+}
+
+.partners-firm-wrapper:nth-child(5) .partners-firm__img {
+  @include back-img-cover("./images/partner-1.png");
+}
+
+.partners-firm-wrapper:nth-child(6) .partners-firm__img {
+  @include back-img-cover("./images/partner-2.png");
+}
+
+.partners-firm-wrapper:nth-child(7) .partners-firm__img {
+  @include back-img-cover("./images/partner-3.png");
+}
+
+.partners-firm-wrapper:nth-child(8) .partners-firm__img {
+  @include back-img-cover("./images/partner-4.png");
+}
+
+.partners-firm__description {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: #26b83a;
+  font-family: "Muller Light", sans-serif;
+  font-size: em(12);
+  color: #ffffff;
+  text-align: center;
+  height: rem(170);
+  line-height: em(15, 12);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  transition: opacity 500ms;
+  opacity: 0;
+}
