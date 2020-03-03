@@ -1,0 +1,123 @@
+@import "../../assets/sundries";
+
+.contacts {
+  display: flex;
+  background-color: #f5f5f5;
+}
+
+.contacts__content-left {
+  display: flex;
+  justify-content: flex-end;
+  height: rem(630);
+  width: 50%;
+}
+
+.contacts__content-right {
+  height: rem(630);
+  background-color: #ffffff;
+  width:50%;
+  padding-left: rem(140);
+}
+
+.contacts__callback-form {
+  width: rem(410);
+}
+
+.callback-form__title {
+  margin: rem(60) 0 rem(30) 0;
+  font-family: "Muller Bold", sans-serif;
+  font-size: em(18);
+}
+
+.callback-form__input-wrapper {
+  display: block;
+  margin-top: rem(14);
+  font-family: "Muller Light", sans-serif;
+  font-size: em(14);
+}
+
+.contacts__callback-form {
+  input, textarea {
+    width: rem(304);
+    height: rem(50);
+    margin-top: rem(10);
+    border: 1px solid #dddddd;
+    border-radius: rem(4);
+    font-size: em(28);
+    padding-left: rem(16);
+  }
+
+  textarea {
+    resize: none;
+    height: rem(80);
+    width: rem(320);
+    padding: 0;
+  }
+}
+
+.callback-form__btn {
+  width: 1px;
+  height: 1px;
+  z-index: -1;
+  position: absolute;
+  opacity: 0;
+}
+
+.callback-form__btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: rem(30);
+  width: rem(320);
+  height: rem(65);
+  border-radius: rem(4);
+  background: linear-gradient(#d00000, #cc0000);
+  font-family: "Muller Bold", sans-serif;
+  font-size: em(18);
+  color: #ffffff;
+  cursor: pointer;
+}
+.callback-form__btn-wrapper:hover {
+  background: linear-gradient(#e02424, #990505);
+  color: #f0f0f0;
+}
+
+
+.contacts__title-2 {
+  margin: rem(95) 0 rem(75) 0;
+  font-size: em(30);
+  font-family: "Muller Bold", sans-serif;
+}
+
+.contacts-block {
+  margin-top: rem(25);
+}
+
+.contacts-block__title {
+  margin-bottom: rem(12);
+  font-family: "Muller Light", sans-serif;
+  font-size: em(13);
+}
+
+.contacts-block__number {
+  font-family: "Muller Bold", sans-serif;
+  font-size: em(17);
+  color: #000000;
+  text-decoration: none;
+}
+
+.contacts-block__email {
+  font-family: "Muller Regular", sans-serif;
+  text-decoration: underline;
+  font-size: em(17);
+  color: #000000;
+}
+
+.contacts-block__work-hours-1, .contacts-block__work-hours-2 {
+  font-family: "Muller Regular", sans-serif;
+  font-size: em(17);
+}
+
+.contacts-block__work-hours-2 {
+  margin-top: rem(27);
+}

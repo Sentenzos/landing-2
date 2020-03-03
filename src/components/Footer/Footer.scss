@@ -1,0 +1,19 @@
+@import "../../assets/sundries";
+
+.footer {
+  background-color: #000000;
+}
+
+.footer__content {
+  height: rem(135);
+  width: rem(945);
+  margin: 0 auto 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  width: rem(190);
+  height: rem(40);
+  @include back-img-cover("./images/footer-logo.png")
+}

@@ -11,6 +11,8 @@ import Consultation from "./components/Consultation/Consultation";
 import Reviews from "./components/Reviews/Reviews";
 import Partners from "./components/Partners/Partners";
 import Tariff from "./components/Tariff/Tariff";
+import Contacts from "./components/Contacts/Contacts";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 
@@ -28,6 +30,8 @@ function App() {
       <Reviews/>
       <Partners/>
       <Tariff/>
+      <Contacts/>
+      <Footer/>
     </>
   );
 }
