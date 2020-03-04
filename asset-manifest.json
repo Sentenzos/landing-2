@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/landing-2/static/css/main.e586589b.chunk.css",
+    "main.js": "/landing-2/static/js/main.1847fcdc.chunk.js",
+    "main.js.map": "/landing-2/static/js/main.1847fcdc.chunk.js.map",
+    "runtime-main.js": "/landing-2/static/js/runtime-main.5dce24a9.js",
+    "runtime-main.js.map": "/landing-2/static/js/runtime-main.5dce24a9.js.map",
+    "static/js/2.a4a45f7c.chunk.js": "/landing-2/static/js/2.a4a45f7c.chunk.js",
+    "static/js/2.a4a45f7c.chunk.js.map": "/landing-2/static/js/2.a4a45f7c.chunk.js.map",
+    "index.html": "/landing-2/index.html",
+    "precache-manifest.ab813ae0ac0eb48ad693b784fab41e10.js": "/landing-2/precache-manifest.ab813ae0ac0eb48ad693b784fab41e10.js",
+    "service-worker.js": "/landing-2/service-worker.js",
+    "static/css/main.e586589b.chunk.css.map": "/landing-2/static/css/main.e586589b.chunk.css.map",
+    "static/js/2.a4a45f7c.chunk.js.LICENSE.txt": "/landing-2/static/js/2.a4a45f7c.chunk.js.LICENSE.txt",
+    "static/media/Footer.scss": "/landing-2/static/media/ProximaNova Light.bc338d97.otf",
+    "static/media/About.scss": "/landing-2/static/media/about-us.0fb7c3d1.jpg",
+    "static/media/PersonalLawyer.scss": "/landing-2/static/media/background-1.fdd153b5.jpg",
+    "static/media/Tariff.scss": "/landing-2/static/media/card-1.64794aba.png",
+    "static/media/card-2.png": "/landing-2/static/media/card-2.9e340502.png",
+    "static/media/card-3.png": "/landing-2/static/media/card-3.bf1365a5.png",
+    "static/media/Consultation.scss": "/landing-2/static/media/consultation.7175c524.jpg",
+    "static/media/logo.svg": "/landing-2/static/media/logo.5d5d9eef.svg",
+    "static/media/Partners.scss": "/landing-2/static/media/partner-4.7c53b99a.png",
+    "static/media/Reviews.scss": "/landing-2/static/media/vid3.76382cc4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5dce24a9.js",
+    "static/js/2.a4a45f7c.chunk.js",
+    "static/css/main.e586589b.chunk.css",
+    "static/js/main.1847fcdc.chunk.js"
+  ]
+}
