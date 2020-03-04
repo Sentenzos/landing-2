@@ -73,11 +73,13 @@ const useScroller = () => {
     const clear = () => {
       clearInterval(int);
       window.removeEventListener('mouseup', clear);
-      ref.current.removeEventListener('mouseout', clear)
+      ref.current.removeEventListener('mouseout', clear);
+      ref.current.removeEventListener('touchend', clear);
     };
 
     window.addEventListener('mouseup', clear);
     ref.current.addEventListener('mouseout', clear);
+    ref.current.addEventListener('touchend', clear);
   };
 
   const scrollToRight = () => {

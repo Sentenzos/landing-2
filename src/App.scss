@@ -1,3 +1,5 @@
+@import "../src/assets/sundries.scss";
+
 .App {
   text-align: center;
 }
@@ -34,5 +36,45 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+#root {
+  min-width: 740px;
+}
+
+@media all and (max-width: 1442px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media all and (max-width: 1072px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 1001px) {
+  html {
+   font-size: 13px;
+ }
+}
+
+@media all and (max-width: 931px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 861px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media all and (max-width: 790px) {
+  html {
+    font-size: 10px;
   }
 }

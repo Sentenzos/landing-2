@@ -1,10 +1,12 @@
 import React from 'react';
 import "./Contacts.scss";
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 
 const Contacts = (props) => {
   return (
-    <section className="contacts">
+    <ScrollableAnchor id={"contacts"}>
+      <section className="contacts">
         <div className="contacts__content-left">
           <form className="contacts__callback-form">
             <h5 className="callback-form__title">
@@ -15,10 +17,10 @@ const Contacts = (props) => {
               Введите свое имя<br/>
               <input type="text" name="name"/>
             </label>
-            <labeL className="callback-form__input-wrapper">
+            <label className="callback-form__input-wrapper">
               Ваш номер телефона<br/>
               <input type="tel" name="phone"/>
-            </labeL>
+            </label>
             <label className="callback-form__input-wrapper">
               Сообщение или вопрос<br/>
               <textarea name="message"/>
@@ -52,7 +54,8 @@ const Contacts = (props) => {
             </div>
           </div>
         </div>
-    </section>
+      </section>
+    </ScrollableAnchor>
   )
 };
 
