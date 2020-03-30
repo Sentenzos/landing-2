@@ -9,30 +9,59 @@
   z-index: 1000;
 }
 
+.header-1__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 59.375rem;
+  height: 3.125rem;
+  margin: 0 auto 0 auto;
+  padding: 0 1rem 0 1rem;
+}
+
 .header-blank {
   height: 3.125rem;
 }
 
-.header-1-menu, .header-2-menu {
+.header-1-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: calc(59.375rem - 8.75rem - 9.375rem);
+  height: 3.125rem;
+  margin: 0;
+  padding: 0;
+}
+
+.header-2-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 59.375rem;
+  max-width: 59.375rem;
   height: 3.125rem;
   margin: 0 auto 0 auto;
   padding: 0 1rem 0 1rem;
-  min-width: 720px;
+}
+
+.header-2__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: rem(535);
+  align-items: center;
 }
 
 .header-1-menu li {
   list-style: none;
 }
 
-.header-1-menu__number {
-  width: 9.375rem;
+.header-1__number {
+  display: flex;
+  align-items: center;
+  max-width: 8.8rem;
+  height: 3.125rem;
 }
 
-.header-1-menu__item a, .header-1-menu__number a {
+.header-1-menu__item a, .header-1__number a {
   text-decoration: none;
   font-family: "Proxima Nova Light", sans-serif;
   color: #000000;
@@ -40,7 +69,7 @@
   cursor: pointer;
 }
 
-.header-1-menu__number a {
+.header-1__number a {
   font-family: "Proxima Nova Bold", sans-serif;
   font-weight: bold;
   text-decoration: none;
@@ -50,7 +79,7 @@
   color: #e61010;
 }
 
-.header-1-menu__callback {
+.header-1__callback {
   width: 8.75rem;
   height: 1.875rem;
   margin-left: 1rem;
@@ -58,11 +87,11 @@
   border-radius: 0.35rem;
 }
 
-.header-1-menu__callback:hover {
+.header-1__callback:hover {
   background-color: #910f0f;
 }
 
-.header-1-menu__callback a {
+.header-1__callback a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,6 +161,10 @@
 
 .header-2-menu__app-btn-1:hover, .header-2-menu__app-btn-2:hover {
   background-color: #f5f5f5;
+}
+
+.header-2-menu__app-btns {
+  display: flex;
 }
 
 .header-2-menu__app-btn-1 {

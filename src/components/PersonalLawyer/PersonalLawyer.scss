@@ -8,8 +8,9 @@
 }
 
 .personal-lawyer__content {
-  width: 59.375rem;
-  margin: 7.8125rem auto 0 auto;
+  max-width: 59.375rem;
+  margin: 7.8rem auto 0 auto;
+  padding-left: 1rem;
 }
 
 .personal-lawyer__title {
@@ -44,7 +45,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 4.375rem;
-  width: 18.6875rem;
+  max-width: 18.6875rem;
   height: 4.0625rem;
   background: linear-gradient(#e02424, #c51919);
   font-family: "Proxima Nova Bold", sans-serif;

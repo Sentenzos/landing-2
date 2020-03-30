@@ -1,6 +1,5 @@
 import React, {useState, useRef} from 'react';
 import logo from './logo.svg';
-import './App.scss';
 import Header from "./components/Header/Header";
 import PersonalLawyer from "./components/PersonalLawyer/PersonalLawyer";
 import Services from "./components/Services/Services";
@@ -13,6 +12,8 @@ import Partners from "./components/Partners/Partners";
 import Tariff from "./components/Tariff/Tariff";
 import Contacts from "./components/Contacts/Contacts";
 import Footer from "./components/Footer/Footer";
+import './App.scss';
+
 
 function App() {
 
@@ -25,13 +26,13 @@ function App() {
       <Services/>
       <About/>
       <How/>
-      <Advantages/>
-      <Consultation/>
-      <Reviews/>
-      <Partners/>
-      <Tariff/>
-      <Contacts/>
-      <Footer/>
+      {/*<Advantages/>*/}
+      {/*<Consultation/>*/}
+      {/*<Reviews/>*/}
+      {/*<Partners/>*/}
+      {/*<Tariff/>*/}
+      {/*<Contacts/>*/}
+      {/*<Footer/>*/}
     </>
   );
 }
