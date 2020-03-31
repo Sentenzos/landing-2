@@ -26,9 +26,9 @@ function App() {
       <Services/>
       <About/>
       <How/>
-      {/*<Advantages/>*/}
-      {/*<Consultation/>*/}
-      {/*<Reviews/>*/}
+      <Advantages/>
+      <Consultation/>
+      <Reviews/>
       {/*<Partners/>*/}
       {/*<Tariff/>*/}
       {/*<Contacts/>*/}

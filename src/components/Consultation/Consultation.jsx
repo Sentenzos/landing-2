@@ -12,7 +12,7 @@ const Consultation = (props) => {
           <div className="consultation__items">
             <div className="consultation__item">
               <span className="consultation__item-number">1.</span>
-              Скачайте наше&nbsp;<span className="consultation__item-underline">приложение Reworld</span>&nbsp;для iOS или Android
+              Скачайте наше приложение Reworld для iOS или Android
             </div>
             <div className="consultation__item">
               <span className="consultation__item-number">2.</span>

@@ -2,20 +2,20 @@
 
 .consultation {
   border-top: 1px solid #ffffff;
-  height: rem(470);
   @include back-img-cover("./images/consultation.jpg");
+  padding: rem(100) 1rem;
 }
 
 .consultation__content {
   display: flex;
   justify-content: space-between;
-  width: rem(895);
+  max-width: rem(895);
   margin: 0 auto 0 auto;
 }
 
 .consultation__title {
   color: #ffffff;
-  margin: rem(100) 0 0 0;
+  margin: 0;
   font-family: "Muller Bold", sans-serif;
   font-weight: bold;
   font-size: em(30);
@@ -40,12 +40,8 @@
   color: #e41e1e;
 }
 
-.consultation__item-underline {
-  border-bottom: solid 1px #ffffff;
-}
-
 .consultation_app-1 {
-  margin-top: rem(133);
+  margin-top: rem(32);
   @include back-img-cover("./images/android-app.png");
   width: rem(206);
   height: rem(72);

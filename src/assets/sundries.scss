@@ -45,3 +45,10 @@ $browser-context: 16;
   background-size: cover;
   background-position: center center;
 }
+
+@mixin back-img-contain($property) {
+  background-image: url($property);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}

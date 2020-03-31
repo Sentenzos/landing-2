@@ -1,30 +1,34 @@
 @import "../../assets/sundries";
 
 .advantages {
-  height: 40.125rem;
   background-color: #ffffff;
 }
 
 .advantages__content {
-  width: 58.875rem;
-  margin: 0 auto 0 auto;
+  max-width: 58.875rem;
+  margin: 0 auto;
+  padding: 5.625rem 1rem 4rem 1rem;
 }
 
 .advantages__title {
   text-align: center;
-  margin: 5.625rem 0 0 0;
+  margin: 0;
   font-family: "Proxima Nova Bold", sans-serif;
   font-size: 1.875em;
+}
+
+.advantage-tables {
+  display: flex;
+  margin-top: rem(80);
 }
 
 .advantage-table {
   display: flex;
   justify-content: center;
-  margin: rem(80) auto 0 auto;
 }
 
 .advantage-table__column-1, .advantage-table__column-2, .advantage-table__column-3 {
-  height: 18.75rem;
+  height: rem(300);
   display: flex;
   flex-flow: column;
   justify-content: space-evenly;
@@ -61,19 +65,27 @@
   border: solid 1px #e8e8e8;
 }
 
-.advantage-table__column-4 {
+.advantage-table-self {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
   margin-left: rem(40);
+  height: 18.75rem;
 }
 
-.advantage-table__column-4 .advantage-table__row {
+.advantage-table-self__rows {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  height: rem(300-65);
+}
+
+.advantage-table-self .advantage-table__row {
   display: flex;
   align-items: flex-end;
 }
 
-.advantage-table__column-4 {
+.advantage-table-self {
   font-family: "Proxima Nova Light", sans-serif;
   font-size: em(16);
   color: #000000;
@@ -84,7 +96,7 @@
   font-weight: bold;
 }
 
-.advantage-table__column-4 .advantage-table__row:nth-child(1) {
+.advantage-table__self .advantage-table__row:nth-child(1) {
   font-family: "Proxima Nova Bold", sans-serif;
   font-weight: bold;
 }
