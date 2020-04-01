@@ -29,7 +29,7 @@ function App() {
       <Advantages/>
       <Consultation/>
       <Reviews/>
-      {/*<Partners/>*/}
+      <Partners/>
       {/*<Tariff/>*/}
       {/*<Contacts/>*/}
       {/*<Footer/>*/}

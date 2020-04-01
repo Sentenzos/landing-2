@@ -2,8 +2,7 @@ import React, {useState} from 'react';
 import "./Reviews.scss";
 import useScroller from "../../common/useScroller";
 import ScrollableAnchor from 'react-scrollable-anchor';
-import Select from "react-select";
-
+import CustomSelect from '../../common/CustomSelect/CustomSelect';
 
 const Reviews = (props) => {
 
@@ -12,12 +11,6 @@ const Reviews = (props) => {
 
   const topics = ["ВСЕ", "ЗДРАВООХРАНЕНИЕ", "БИЗНЕС", "СЕМЬЯ"
     , "ЖКХ", "НЕДВИЖИМОСТЬ"];
-
-  const options = topics.map(val => {
-    return { value: val, label: val }
-  });
-
-  const [selectedOption, setSelectedOption] = useState(options[0]);
 
   return (
     <ScrollableAnchor id={"reviews"}>
@@ -34,10 +27,7 @@ const Reviews = (props) => {
               })
             }
           </div>
-          <CustomSelect options={options}
-                        selectedOption={selectedOption}
-                        setSelectedOption={setSelectedOption}
-          />
+          <CustomSelect className="reviews__topics-mobile" options={topics}/>
           <div className="reviews-videos-wrapper">
             <div className="reviews-videos__left-btn" ref={leftArrow} onMouseDown={scrollToLeft} onTouchStart={scrollToLeft}/>
             <div className="reviews-videos" ref={containerElem}>
@@ -86,24 +76,5 @@ const Reviews = (props) => {
 
   )
 };
-
-
-function CustomSelect(props) {
-
-  const handleChange = selectedOption => {
-    props.setSelectedOption(selectedOption);
-  };
-
-  return (
-    <Select
-      value={props.selectedOption}
-      onChange={handleChange}
-      options={props.options}
-      className="reviews__topics-mobile"
-      menuColor="red"
-    />
-  );
-
-}
 
 export default Reviews;

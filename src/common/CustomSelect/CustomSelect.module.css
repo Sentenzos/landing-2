@@ -1,0 +1,76 @@
+.select {
+  font-size: 1rem;
+}
+
+.button {
+  display: flex;
+  height: 2rem;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 0.25rem;
+  background-color: white;
+  transition: border 500ms;
+  cursor: pointer;
+}
+
+.button:hover {
+  border-color: rgb(160, 160, 160);
+}
+
+.button:hover .arrow {
+  fill: rgb(140, 140, 140);
+}
+
+.chosenOption {
+  width: calc(100% - 2.5rem);
+  display: flex;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+
+.arrowContainer {
+  display: grid;
+  grid-template-columns: 1fr 99fr;
+  width: 2.5rem;
+  align-items: center;
+}
+
+.options {
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 0.25rem;
+  background-color: white;
+  overflow-y: hidden;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: left;
+  padding-left: 0.5rem;
+  height: 2rem;
+}
+
+.option:hover {
+  color: rgb(255, 71, 71);
+  cursor: pointer;
+  background-color: rgb(250, 250, 250);
+}
+
+.delimiter {
+  width: 1px;
+  height: 1rem;
+  background-color: rgb(207, 207, 207);
+}
+
+.arrow {
+  width: 1.1rem;
+  height: 1.1rem;
+  justify-self: center;
+  fill: rgb(207, 207, 207);
+  transition: fill 500ms;
+}
+
+.option.selected {
+  background-color: rgb(255, 71, 71);
+  color: #ffffff;
+}

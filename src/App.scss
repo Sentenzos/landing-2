@@ -109,6 +109,16 @@
     position: absolute;
     left: 1.2rem;
   }
+
+  .partners-firms__right-btn {
+    position: absolute;
+    right: 1.2rem;
+  }
+
+  .partners-firms__left-btn {
+    position: absolute;
+    left: 1.2rem;
+  }
 }
 
 
@@ -190,6 +200,18 @@
   .reviews-videos-wrapper {
     margin-top: 2.5rem;
   }
+
+  .partners {
+    padding: 3rem 1rem;
+  }
+
+  .reviews__title, .partners__title, .how-it-works__title, .services__title {
+    font-size: 1.6em;
+  }
+
+  .partners-firms-wrapper {
+    margin-top: 3rem;
+  }
 }
 
 
@@ -245,10 +267,6 @@
 
   .service {
     margin-top: 2rem;
-  }
-
-  .services__title {
-    font-size: 1.5em;
   }
 
   .services__items {
