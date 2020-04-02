@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/landing-2/static/css/main.e586589b.chunk.css",
-    "main.js": "/landing-2/static/js/main.1847fcdc.chunk.js",
-    "main.js.map": "/landing-2/static/js/main.1847fcdc.chunk.js.map",
+    "main.css": "/landing-2/static/css/main.16f7048d.chunk.css",
+    "main.js": "/landing-2/static/js/main.443aceac.chunk.js",
+    "main.js.map": "/landing-2/static/js/main.443aceac.chunk.js.map",
     "runtime-main.js": "/landing-2/static/js/runtime-main.5dce24a9.js",
     "runtime-main.js.map": "/landing-2/static/js/runtime-main.5dce24a9.js.map",
-    "static/js/2.a4a45f7c.chunk.js": "/landing-2/static/js/2.a4a45f7c.chunk.js",
-    "static/js/2.a4a45f7c.chunk.js.map": "/landing-2/static/js/2.a4a45f7c.chunk.js.map",
+    "static/js/2.801eb92c.chunk.js": "/landing-2/static/js/2.801eb92c.chunk.js",
+    "static/js/2.801eb92c.chunk.js.map": "/landing-2/static/js/2.801eb92c.chunk.js.map",
     "index.html": "/landing-2/index.html",
-    "precache-manifest.ab813ae0ac0eb48ad693b784fab41e10.js": "/landing-2/precache-manifest.ab813ae0ac0eb48ad693b784fab41e10.js",
+    "precache-manifest.8884150b2ca730d054b5903191cd3937.js": "/landing-2/precache-manifest.8884150b2ca730d054b5903191cd3937.js",
     "service-worker.js": "/landing-2/service-worker.js",
-    "static/css/main.e586589b.chunk.css.map": "/landing-2/static/css/main.e586589b.chunk.css.map",
-    "static/js/2.a4a45f7c.chunk.js.LICENSE.txt": "/landing-2/static/js/2.a4a45f7c.chunk.js.LICENSE.txt",
-    "static/media/Footer.scss": "/landing-2/static/media/ProximaNova Light.bc338d97.otf",
+    "static/css/main.16f7048d.chunk.css.map": "/landing-2/static/css/main.16f7048d.chunk.css.map",
+    "static/js/2.801eb92c.chunk.js.LICENSE.txt": "/landing-2/static/js/2.801eb92c.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/landing-2/static/media/ProximaNova Light.bc338d97.otf",
     "static/media/About.scss": "/landing-2/static/media/about-us.0fb7c3d1.jpg",
+    "static/media/arrow-bottom.ced8e562.svg": "/landing-2/static/media/arrow-bottom.ced8e562.svg",
     "static/media/PersonalLawyer.scss": "/landing-2/static/media/background-1.fdd153b5.jpg",
     "static/media/Tariff.scss": "/landing-2/static/media/card-1.64794aba.png",
     "static/media/card-2.png": "/landing-2/static/media/card-2.9e340502.png",
@@ -25,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5dce24a9.js",
-    "static/js/2.a4a45f7c.chunk.js",
-    "static/css/main.e586589b.chunk.css",
-    "static/js/main.1847fcdc.chunk.js"
+    "static/js/2.801eb92c.chunk.js",
+    "static/css/main.16f7048d.chunk.css",
+    "static/js/main.443aceac.chunk.js"
   ]
 }
