@@ -5,11 +5,11 @@
 }
 
 .footer__content {
-  height: rem(135);
-  width: rem(945);
+  max-width: rem(945);
   margin: 0 auto 0 auto;
   display: flex;
   align-items: center;
+  padding: 2rem 1rem;
 }
 
 .footer-logo {

@@ -1,4 +1,4 @@
-import React, {useState, useRef, useEffect} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import "./Tariff.scss";
 import card1 from "../../assets/images/card-1.png";
 import card2 from "../../assets/images/card-2.png"
@@ -21,7 +21,6 @@ const Tariff = (props) => {
             Оформление займёт всего 10 минут
           </h5>
           <div className="tariff__choose-card">
-            Выберите годовую карту, которая Вам подходит:
             <div className="choose-card__btns">
               {
                 btns.map((b, i) => {
@@ -37,11 +36,12 @@ const Tariff = (props) => {
                           nameBold="для Вас"
                           cardImg={card1}
                           rows={[{
-                            service:"Устные консультации", term: "2 в месяц"},
-                            {service:"Консультации в отношении 3-х лиц", term: "2 в год"},
-                            {service:"Письменные консультации", term: "2 в квартал"},
-                            {service:"Звонок юриста", term: "1 в год"},
-                            {service:"Содействие в переговорах", term: "1 в месяц"}
+                            service: "Устные консультации", term: "2 в месяц"
+                          },
+                            {service: "Консультации в отношении 3-х лиц", term: "2 в год"},
+                            {service: "Письменные консультации", term: "2 в квартал"},
+                            {service: "Звонок юриста", term: "1 в год"},
+                            {service: "Содействие в переговорах", term: "1 в месяц"}
                           ]}
                           style={{background: "linear-gradient(#ff4c25, #ff2e00)"}}
 
@@ -50,11 +50,11 @@ const Tariff = (props) => {
                           nameBold="для всей семьи"
                           cardImg={card2}
                           rows={[
-                            {service:"Устные консультации", term: "2 в месяц"},
-                            {service:"Консультации в отношении 3-х лиц", term: "2 в год"},
-                            {service:"Письменные консультации", term: "2 в квартал"},
-                            {service:"Звонок юриста", term: "1 в год"},
-                            {service:"Содействие в переговорах", term: "1 в месяц"}
+                            {service: "Устные консультации", term: "2 в месяц"},
+                            {service: "Консультации в отношении 3-х лиц", term: "2 в год"},
+                            {service: "Письменные консультации", term: "2 в квартал"},
+                            {service: "Звонок юриста", term: "1 в год"},
+                            {service: "Содействие в переговорах", term: "1 в месяц"}
                           ]}
                           style={{background: "linear-gradient(#00a300, #008e00)"}}
 
@@ -64,11 +64,11 @@ const Tariff = (props) => {
                           nameBold="для бизнеса"
                           cardImg={card3}
                           rows={[
-                            {service:"Устные консультации", term: "2 в месяц"},
-                            {service:"Консультации в отношении 3-х лиц", term: "2 в год"},
-                            {service:"Письменные консультации", term: "2 в квартал"},
-                            {service:"Звонок юриста", term: "1 в год"},
-                            {service:"Содействие в переговорах", term: "1 в месяц"}
+                            {service: "Устные консультации", term: "2 в месяц"},
+                            {service: "Консультации в отношении 3-х лиц", term: "2 в год"},
+                            {service: "Письменные консультации", term: "2 в квартал"},
+                            {service: "Звонок юриста", term: "1 в год"},
+                            {service: "Содействие в переговорах", term: "1 в месяц"}
                           ]}
                           style={{background: "linear-gradient(#02388f, #001c67)"}}
 
@@ -86,25 +86,26 @@ const Tariff = (props) => {
 };
 
 
-
 const TariffColumn = (props) => {
 
   const imgElem = useRef(null);
 
-  useEffect(()=> {
+  useEffect(() => {
     imgElem.current.style.backgroundImage = `url(${props.cardImg})`
   }, []);
 
   return (
-    <div className="tariff-table__column">
-      <div className="tariff-table__column-top">
+    <div className="tariff-table__block">
+      <div className="tariff-table__left-side">
         <div className="tariff-table__column-name">
           {props.name}<br/>
           <span className="tariff-table__column-name-bold">{props.nameBold}</span>
         </div>
         <div className="tariff-table__column-img" ref={imgElem}/>
+      </div>
+      <div className="tariff-table__center">
         {
-          props.rows.map((r, i)=> {
+          props.rows.map((r, i) => {
             return (
               <div className="tariff-table__row" key={i}>
                 <div className="tariff-table__service">{r.service}</div>
@@ -113,17 +114,17 @@ const TariffColumn = (props) => {
             )
           })
         }
-        { props.rowsAddition &&
-          props.rowsAddition.map((r, i)=> {
-            return (
-              <div className="tariff-table__row-addition" key={i}>
-                <div className="tariff-table__service">{r.service}</div>
-              </div>
-            )
-          })
+        {props.rowsAddition &&
+        props.rowsAddition.map((r, i) => {
+          return (
+            <div className="tariff-table__row-addition" key={i}>
+              <div className="tariff-table__service">{r.service}</div>
+            </div>
+          )
+        })
         }
       </div>
-      <div className="tariff-table__column-bottom">
+      <div className="tariff-table__right-side">
         Цена:
         <div className="column-bottom__price">65$ за год</div>
         <div className="column-bottom__consultation" style={props.style}>Консультация</div>
@@ -133,10 +134,6 @@ const TariffColumn = (props) => {
   )
 
 };
-
-
-
-
 
 
 export default Tariff;

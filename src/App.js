@@ -30,9 +30,9 @@ function App() {
       <Consultation/>
       <Reviews/>
       <Partners/>
-      {/*<Tariff/>*/}
-      {/*<Contacts/>*/}
-      {/*<Footer/>*/}
+      <Tariff/>
+      <Contacts/>
+      <Footer/>
     </>
   );
 }

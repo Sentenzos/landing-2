@@ -2,17 +2,16 @@
 
 .tariff {
   background-color: #f5f5f5;
-  padding-top: 1px;
-  height: rem(1430);
+  padding: 6rem 1rem 4rem 1rem;
 }
 
 .tariff__content {
-  width: rem(945);
+  max-width: rem(945);
   margin: 0 auto 0 auto;
 }
 
 .tariff__title-1 {
-  margin: rem(95) 0 0 0;
+  margin: 0;
   font-family: "Muller Bold", sans-serif;
   font-weight: bold;
   font-size: em(30);
@@ -30,7 +29,7 @@
 
 .tariff__choose-card {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   margin-top: rem(35);
 }
@@ -62,22 +61,25 @@
 
 .tariff-table {
   display: flex;
+  flex-flow: column;
   margin-top: rem(35);
+}
+
+.tariff-table__block {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  box-sizing: border-box;
+  //height: rem(920);
+  //width: rem(945/3);
+  border: 1px solid #e8e8e8;
+  margin-bottom: 0.5rem;
   background-color: #ffffff;
 }
 
-.tariff-table__column {
-  display: flex;
-  flex-flow: column;
-  justify-content: space-between;
-  height: rem(920);
-  width: rem(945/3);
-  border: 1px solid #e8e8e8;
-  box-sizing: border-box;
-}
-
-.tariff-table__column-top {
-  margin-top: rem(45)
+.tariff-table__left-side {
+  width: 30%;
+  //margin-top: rem(45)
 }
 
 .tariff-table__column-name {
@@ -92,31 +94,36 @@
 }
 
 .tariff-table__column-img {
-  width: rem(202);
-  height: rem(128);
-  @include back-img-cover("./images/card-1.png");
-  margin: rem(30) auto rem(30) auto;
+  max-width: 100%;
+  height: 8rem;
+  @include back-img-contain("./images/card-1.png");
+  margin-top: 10% ;
 }
 
 .tariff-table__row,.tariff-table__row-addition {
   display: flex;
   justify-content: space-between;
-  width: rem(280);
+  //width: rem(280);
   margin: 0 auto 0 auto;
-  font-size: em(11);
+  font-size: em(14);
   font-family: "Muller Light", sans-serif;
   padding: rem(10) rem(20);
   box-sizing: border-box;
   border-top: 1px solid #f5f5f5;
 }
 
+.tariff-table__center {
+  width: 41%;
+}
+
 .tariff-table__row-addition {
   font-size: em(14);
 }
 
-.tariff-table__column-bottom {
+.tariff-table__right-side {
+  width: 27%;
   text-align: center;
-  margin-bottom: rem(50);
+  //margin-bottom: rem(50);
   font-family: "Muller Light", sans-serif;
   font-size: em(13);
 }
@@ -131,9 +138,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: rem(200);
+  max-width: 90%;
   height: rem(55);
-  margin: rem(30) auto rem(15) auto;
+  margin: rem(30) auto 0 auto;
   background-color: #26b83a;
   border-radius: rem(4);
   font-family: "Muller Bold", sans-serif;
@@ -148,5 +155,6 @@
 
 .tariff-table__service-term {
   font-family: "Muller Medium", sans-serif;
+  text-align: right;
 }
 

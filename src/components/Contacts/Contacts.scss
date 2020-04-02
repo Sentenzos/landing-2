@@ -3,13 +3,15 @@
 .contacts {
   display: flex;
   background-color: #f5f5f5;
+  box-sizing: border-box;
 }
 
 .contacts__content-left {
   display: flex;
   justify-content: flex-end;
-  height: rem(630);
   width: 50%;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
 .contacts__content-right {
@@ -17,10 +19,11 @@
   background-color: #ffffff;
   width:50%;
   padding-left: rem(140);
+  padding-right: 1rem;
 }
 
 .contacts__callback-form {
-  width: rem(410);
+  width: rem(380);
 }
 
 .callback-form__title {
@@ -38,19 +41,19 @@
 
 .contacts__callback-form {
   input, textarea {
-    width: rem(304);
+    width: 80%;
     height: rem(50);
     margin-top: rem(10);
     border: 1px solid #dddddd;
     border-radius: rem(4);
     font-size: em(28);
     padding-left: rem(16);
+    box-sizing: border-box;
   }
 
   textarea {
     resize: none;
     height: rem(80);
-    width: rem(320);
     padding: 0;
   }
 }
@@ -68,7 +71,7 @@
   justify-content: center;
   align-items: center;
   margin-top: rem(30);
-  width: rem(320);
+  width: 80%;
   height: rem(65);
   border-radius: rem(4);
   background: linear-gradient(#d00000, #cc0000);
@@ -76,7 +79,9 @@
   font-size: em(18);
   color: #ffffff;
   cursor: pointer;
+  box-sizing: border-box;
 }
+
 .callback-form__btn-wrapper:hover {
   background: linear-gradient(#e02424, #990505);
   color: #f0f0f0;
