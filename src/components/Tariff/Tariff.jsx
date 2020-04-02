@@ -95,13 +95,13 @@ const TariffColumn = (props) => {
   }, []);
 
   return (
-    <div className="tariff-table__block">
+    <div className="tariff-table__plan">
       <div className="tariff-table__left-side">
-        <div className="tariff-table__column-name">
+        <div className="tariff-table__plan-name">
           {props.name}<br/>
-          <span className="tariff-table__column-name-bold">{props.nameBold}</span>
+          <span className="tariff-table__plan-name-bold">{props.nameBold}</span>
         </div>
-        <div className="tariff-table__column-img" ref={imgElem}/>
+        <div className="tariff-table__plan-img" ref={imgElem}/>
       </div>
       <div className="tariff-table__center">
         {
@@ -126,9 +126,9 @@ const TariffColumn = (props) => {
       </div>
       <div className="tariff-table__right-side">
         Цена:
-        <div className="column-bottom__price">65$ за год</div>
-        <div className="column-bottom__consultation" style={props.style}>Консультация</div>
-        <div className="column-bottom__buy">Купить</div>
+        <div className="tariff-table__price">65$ за год</div>
+        <div className="tariff-table__consult-btn" style={props.style}>Консультация</div>
+        <div className="tariff-table__buy-btn">Купить</div>
       </div>
     </div>
   )

@@ -65,7 +65,7 @@
   margin-top: rem(35);
 }
 
-.tariff-table__block {
+.tariff-table__plan {
   display: flex;
   justify-content: space-between;
   padding: 2rem;
@@ -82,18 +82,18 @@
   //margin-top: rem(45)
 }
 
-.tariff-table__column-name {
+.tariff-table__plan-name {
   text-align: center;
   font-family: "Muller Light", sans-serif;
   font-size: em(20);
   line-height: em(25, 20);
 }
 
-.tariff-table__column-name-bold {
+.tariff-table__plan-name-bold {
   font-family: "Muller Bold", sans-serif;
 }
 
-.tariff-table__column-img {
+.tariff-table__plan-img {
   max-width: 100%;
   height: 8rem;
   @include back-img-contain("./images/card-1.png");
@@ -128,13 +128,13 @@
   font-size: em(13);
 }
 
-.column-bottom__price {
+.tariff-table__price {
   font-family: "Muller Bold", sans-serif;
   font-size: em(24, 13);
   margin-top: rem(10);
 }
 
-.column-bottom__consultation, .column-bottom__buy {
+.tariff-table__consult-btn, .tariff-table__buy-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -149,7 +149,7 @@
   cursor: pointer;
 }
 
-.column-bottom__buy {
+.tariff-table__buy-btn {
   background-color: #9a9a9a;
 }
 

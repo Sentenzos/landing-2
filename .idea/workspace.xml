@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ca623a5-9030-4424-8321-329197643259" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/CustomSelect/CustomSelect.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/CustomSelect/CustomSelect.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Tariff/Tariff.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tariff/Tariff.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Tariff/Tariff.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tariff/Tariff.scss" afterDir="false" />
     </list>
@@ -82,10 +77,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="340">
+              <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
               <folding>
-                <marker date="1585842310611" expanded="true" signature="497:532" ph="..." />
+                <marker date="1585842932480" expanded="true" signature="497:532" ph="..." />
               </folding>
             </state>
           </provider>
@@ -127,10 +122,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.advantages__content</find>
-      <find>advantage-table-self</find>
-      <find>consultation__content</find>
-      <find>consultation_app-1</find>
       <find>consultation__item-underline</find>
       <find>reviews__title</find>
       <find>reviews-videos</find>
@@ -142,12 +133,10 @@
       <find>partners</find>
       <find>partners__title</find>
       <find>tariff-table</find>
-      <find>tariff-table__column-img</find>
       <find>tariff-table__column</find>
       <find>tariff-table__column-top</find>
       <find>tariff-table__left-side</find>
       <find>center</find>
-      <find>column-bottom__consultation</find>
       <find>tariff-table__row</find>
       <find>tariff__choose-card</find>
       <find>callback-form__input-wrapper</find>
@@ -157,7 +146,21 @@
       <find>contacts__content-left</find>
       <find>footer__content</find>
       <find>//</find>
+      <find>tariff-table__block</find>
+      <find>tariff-table__column-name</find>
+      <find>tariff-table__column-img</find>
+      <find>column-bottom__price</find>
+      <find>column-bottom__consultation</find>
+      <find>column-bottom__buy</find>
     </findStrings>
+    <replaceStrings>
+      <replace>tariff-table__plan</replace>
+      <replace>tariff-table__plan-name</replace>
+      <replace>tariff-table__plan-img</replace>
+      <replace>tariff-table__price</replace>
+      <replace>tariff-table__consult-btn</replace>
+      <replace>tariff-table__buy-btn</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -303,12 +306,12 @@
       <workItem from="1585569896514" duration="17634000" />
       <workItem from="1585656131629" duration="17189000" />
       <workItem from="1585742524186" duration="17432000" />
-      <workItem from="1585830653028" duration="11264000" />
+      <workItem from="1585830653028" duration="11783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175069000" />
+    <option name="totallyTimeSpent" value="175588000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -648,10 +651,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="340">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
           <folding>
-            <marker date="1585842310611" expanded="true" signature="497:532" ph="..." />
+            <marker date="1585842932480" expanded="true" signature="497:532" ph="..." />
           </folding>
         </state>
       </provider>
